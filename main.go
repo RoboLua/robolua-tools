@@ -14,7 +14,6 @@ const (
 func main() {
 	if len(os.Args) < 2 {
 		log.Error("Usage: robolua-tools <command>")
-		return
 	}
 
 	switch os.Args[1] {
